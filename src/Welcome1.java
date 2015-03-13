@@ -4,7 +4,7 @@
 public class Welcome1
 {
      // main method begins execution of Java application
-     public static void main(String[] arg)
+	public static void main(String[] arg)
      {
          System.out.println("Welcome to Java Programming!");
      }  // end method main
