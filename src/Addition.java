@@ -20,9 +20,9 @@ public class Addition
 		number1 = input.nextInt(); // read first number from user
 				
 		System.out.print("Enter second integer: "); // prompt
-		number2 = input.nextInt(); // read first number from user
+		number2 = input.nextInt(); // read second number from user
 		
-		sum = number1 + number2;
+		sum = number1 + number2; // add numbers, then store total in sum
 		
 		System.out.printf("Sum is %d%n", sum); // Display sum
 	}
