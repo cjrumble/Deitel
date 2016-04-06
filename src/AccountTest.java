@@ -20,5 +20,5 @@ public class AccountTest
 		String theName = input.nextLine(); // read a line of text
 		myAccount.setName(theName); // put theName in my Account
 		System.out.println(); // outputs a blank line	
-	}
+	}	
 } // end AccountTest class
