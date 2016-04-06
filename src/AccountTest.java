@@ -20,5 +20,17 @@ public class AccountTest
 		String theName = input.nextLine(); // read a line of text
 		myAccount.setName(theName); // put theName in my Account
 		System.out.println(); // outputs a blank line	
+		
+		// display the name stored in object myAccount
+		System.out.printf("Name in object myAccount is:%n%s%n",myAccount.getName());
+		
+		try {
+			// Use input
+			input.reset();
+			} finally {
+			    input.close();     
+			}
+		// Scanner is AutoClosable so should not need finally block and close()
+	
 	}	
 } // end AccountTest class
